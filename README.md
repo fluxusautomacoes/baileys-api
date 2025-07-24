@@ -140,3 +140,4 @@ The `docker-compose.coolify.yml` can be adapted for other Docker environments. Y
 - [ ] Add unit testing
 # Rebuild for GHCR
 # Rebuild for GHCR
+# Rebuild for GHCR
