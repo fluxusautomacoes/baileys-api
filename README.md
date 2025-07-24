@@ -138,3 +138,4 @@ The `docker-compose.coolify.yml` can be adapted for other Docker environments. Y
 
 - [ ] Add support for more Baileys features
 - [ ] Add unit testing
+# Rebuild for GHCR
