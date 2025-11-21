@@ -2,6 +2,7 @@ FROM oven/bun:1-alpine AS base
 WORKDIR /usr/src/app
 
 FROM base AS install
+ENV BUN_INSTALL_FROZEN_LOCKFILE=false
 RUN mkdir -p /temp/prod
 COPY package.json bun.lock /temp/prod/
 COPY patches /temp/prod/patches
