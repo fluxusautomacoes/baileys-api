@@ -2,9 +2,10 @@
 name: Docker Publish - Baileys API
 
 on:
+  workflow_dispatch:
   push:
     branches:
-      - main # Ou a branch que você usa como principal
+      - main
 
 jobs:
   build-and-push:
